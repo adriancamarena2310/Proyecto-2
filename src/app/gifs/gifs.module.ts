@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './pages/home/home-Page.component';
 import { ShearchBoxComponent } from './components/shearch-box/shearch-box.component';
+import { CardListComponent } from './components/card-list/card-list.component';
 
 @NgModule({
   imports: [
@@ -9,7 +10,8 @@ import { ShearchBoxComponent } from './components/shearch-box/shearch-box.compon
   ],
   declarations: [
     HomePageComponent,
-    ShearchBoxComponent
+    ShearchBoxComponent,
+    CardListComponent
   ],
   exports: [
     HomePageComponent
