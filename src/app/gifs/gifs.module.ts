@@ -4,10 +4,12 @@ import { HomePageComponent } from './pages/home/home-Page.component';
 import { CardListComponent } from './components/card-list/card-list.component';
 import { ShearchBoxComponent } from './components/shearch-box/shearch-box.component';
 import { GiftCardComponent } from './components/giftCard/giftCard.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   declarations: [
     HomePageComponent,
