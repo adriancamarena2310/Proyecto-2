@@ -4,7 +4,7 @@ import {  HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { GifsModule } from './gifs/gifs.module';
-import { SharedModule } from './shared/shared/shared.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
