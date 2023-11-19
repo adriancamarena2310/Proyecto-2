@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './pages/home/home-Page.component';
 import { CardListComponent } from './components/card-list/card-list.component';
 import { ShearchBoxComponent } from './components/shearch-box/shearch-box.component';
+import { GiftCardComponent } from './components/giftCard/giftCard.component';
 
 @NgModule({
   imports: [
@@ -11,7 +12,8 @@ import { ShearchBoxComponent } from './components/shearch-box/shearch-box.compon
   declarations: [
     HomePageComponent,
     CardListComponent,
-    ShearchBoxComponent
+    ShearchBoxComponent,
+    GiftCardComponent
   ],
   exports: [
     HomePageComponent
